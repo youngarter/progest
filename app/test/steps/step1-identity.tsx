@@ -41,7 +41,7 @@ export const Step1Identity = ({ data, update }: StepProps) => (
                     required
                 />
                 {data.adresse.length > 0 && data.adresse.length < 5 && (
-                    <p className="text-sm text-red-500">L'adresse doit contenir au moins 5 caractères</p>
+                    <p className="text-sm text-red-500">L&apos;adresse doit contenir au moins 5 caractères</p>
                 )}
             </div>
             
@@ -131,7 +131,7 @@ export const Step1Identity = ({ data, update }: StepProps) => (
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
                 <p className="text-sm text-blue-800">
                     <strong>Champs obligatoires :</strong> Nom et Adresse<br/>
-                    <strong>Conseil :</strong> Renseignez au moins le nom (3 caractères min) et l'adresse (5 caractères min) pour passer à l'étape suivante.
+                    <strong>Conseil :</strong> Renseignez au moins le nom (3 caractères min) et l&apos;adresse (5 caractères min) pour passer à l&apos;étape suivante.
                 </p>
             </div>
         </CardContent>
